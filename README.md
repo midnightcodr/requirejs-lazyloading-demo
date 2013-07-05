@@ -1,1 +1,1 @@
-to demo load on demand feature
+This is a simple demo how to do easy-loading in requirejs. To run this demo, simply clone this project and open index.html with Chrome browser (Firefox should be ok too but it's easier to see results with Chrome). Switch to Network tab then ^ R to reload the page. You will notice only the require.js and main.js are loaded. modulex.js is loaded only when "Say" link is clicked the first time. The same goes to the "Add" link and moduley.js.
